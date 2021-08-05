@@ -290,10 +290,10 @@ def payment(k):
     Button(window, text='Delete', bg="red", fg="white", font=('Times New Roman', 18), command=Delete_payment).place(x=330, y=380)
     Button(window, text='Clear',bg="red",fg="white",font=('Times New Roman', 18), command=Clear_payment).place(x=450,y=380)
     Button(window, text='<<', bg="#1bb6fe", fg="white", font=('Times New Roman', 18),
-           command=lambda: PortalRest.portal(root)).place(x=230, y=600)
+           command=lambda: PortalRest.portal(root)).place(x=230, y=500)
     Button(window, text='<', bg="#1bb6fe", fg="white", font=('Times New Roman', 18),
            command=lambda: PortalRest.rest(root)).place(
-        x=300, y=600)
+        x=300, y=500)
     TVList = ['PID', 'PAY METHOD','CUST ID','ORD ID']
     treev = ttk.Treeview(tree, column=TVList, show='headings')
 

@@ -245,10 +245,10 @@ def drinks(k):
     Button(drinks, text='Clear', bg="red", fg="white", font=('Times New Roman', 18), command=clear_from_drinks).place(x=430,
                                                                                                                       y=450)
     Button(drinks, text='<<', bg="#1bb6fe", fg="white", font=('Times New Roman', 18),
-           command=lambda: PortalRest.portal(root)).place(x=230, y=600)
+           command=lambda: PortalRest.portal(root)).place(x=230, y=550)
     Button(drinks, text='<', bg="#1bb6fe", fg="white", font=('Times New Roman', 18),
            command=lambda: PortalRest.rest(root)).place(
-        x=300, y=600)
+        x=300, y=550)
     TVList = ['DrinkId', 'Drink Name', 'Price', 'Size']
 
     treev = ttk.Treeview(tree, column=TVList, show='headings', height=5)

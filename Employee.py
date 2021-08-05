@@ -273,10 +273,10 @@ def employee(k):
                                                                                                                 y=380)
     Button(window, text='Clear', bg="red", fg="white", font=('Times New Roman', 18), command=Clear_emp).place(x=450, y=380)
     Button(window, text='<<', bg="#1bb6fe", fg="white", font=('Times New Roman', 18),
-           command=lambda: PortalRest.portal(root)).place(x=230, y=600)
+           command=lambda: PortalRest.portal(root)).place(x=230, y=500)
     Button(window, text='<', bg="#1bb6fe", fg="white", font=('Times New Roman', 18),
            command=lambda: PortalRest.rest(root)).place(
-        x=300, y=600)
+        x=300, y=500)
     TVList = ['First Name', 'Last Name', 'Emp Id', 'Email Id', 'Address', 'Gender', 'Phone No', 'Salary']
     treev = ttk.Treeview(tree, column=TVList, show='headings')
     treev['columns'] = ['First Name', 'Last Name', 'Emp Id', 'Email Id', 'Address', 'Gender', 'Phone No', 'Salary']

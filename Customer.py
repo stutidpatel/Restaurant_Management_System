@@ -354,9 +354,9 @@ def customer(k):
     Button(customer, text='Delete',bg="red",fg="white",font=('Times New Roman', 18), command=Delete_customer).place(x=310,y=500)
     Button(customer, text='Clear', bg="red", fg="white", font=('Times New Roman', 18), command=Clear_customer).place(x=430, y=500)
     Button(customer, text='<<', bg="#1bb6fe", fg="white", font=('Times New Roman', 18),
-           command=lambda: PortalRest.portal(root)).place(x=230, y=600)
+           command=lambda: PortalRest.portal(root)).place(x=230, y=500)
     Button(customer, text='<', bg="#1bb6fe", fg="white", font=('Times New Roman', 18), command=lambda: PortalRest.rest(root)).place(
-        x=300, y=600)
+        x=300, y=500)
     TVList = ['Fname', 'lname', 'custid', 'emailid', 'city', 'street', 'pincode', 'gender', 'phoneno', 'allergy']
 
 

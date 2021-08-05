@@ -198,10 +198,10 @@ def cuisine(k):
     Button(cuisine, text='Clear', bg="red", fg="white", font=('Times New Roman', 18), command=Clear_cuisine).place(x=430,
                                                                                                                    y=400)
     Button(cuisine, text='<<', bg="#1bb6fe", fg="white", font=('Times New Roman', 18),
-           command=lambda: PortalRest.portal(root)).place(x=230, y=600)
+           command=lambda: PortalRest.portal(root)).place(x=230, y=500)
     Button(cuisine, text='<', bg="#1bb6fe", fg="white", font=('Times New Roman', 18),
            command=lambda: PortalRest.rest(root)).place(
-        x=300, y=600)
+        x=300, y=500)
     TVList = ['Cuisine Id', 'Cuisine Name']
 
     treev = ttk.Treeview(tree, column=TVList, show='headings', height=5)
